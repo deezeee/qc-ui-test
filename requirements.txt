@@ -1,0 +1,9 @@
+robotframework==3.2.1
+robotframework-selenium2library==3.0.0
+selenium==3.141.0
+requests==2.24.0
+setuptools==44.1.1
+six==1.15.0
+typing==3.7.4.3
+urllib3==1.25.9
+-e git+https://github.com/deezeee/robotframework-pageobjectlibrary.git#egg=robotframework-pageobjectlibrary
