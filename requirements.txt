@@ -6,4 +6,6 @@ setuptools==44.1.1
 six==1.15.0
 typing==3.7.4.3
 urllib3==1.25.9
+ftfy==4.4.3
+clipboard==0.0.4
 -e git+https://github.com/deezeee/robotframework-pageobjectlibrary.git#egg=robotframework-pageobjectlibrary
