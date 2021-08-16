@@ -16,7 +16,7 @@ G_guru_support_user_password                = 'abc123'
 
 ################### Normal user info ###################
 
-G_normal_user_name                          = 'ducta1@coccoc.com'
+G_normal_user_name                          = 'stage_ducta1@coccoc.com'
 G_normal_user_password                      = 'abc123'
 G_normal_user_id                            = '442142'
 G_normal_user_wallet_id                     = '310892'
