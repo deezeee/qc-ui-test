@@ -59,10 +59,6 @@ Create New Small Native Infeed Banner Campaign
     ${daily_limit_en}    Set Variable    ${daily_limit_currency}${SPACE}VND/day
     ${daily_limit_vi}    Set Variable    ${daily_limit_currency}${SPACE}VNĐ/ngày
     Should Be True    '${daily_limit_en}'=='${campaign_info}[campaign_daily_limit]' or '${daily_limit_vi}'=='${campaign_info}[campaign_daily_limit]'
-
     [Return]    ${campaign_info}
 
-Get Campaign Info In Campaign List By Id
-    [Arguments]    ${user_id}    ${campaign_id}
-    Go To Campaign List Page    ${user_id}
 
