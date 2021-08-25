@@ -102,6 +102,7 @@ Small_zen_campaign_type                     = 'Small Native In-feed Banner'
 Small_zen_max_name_length                   = 130
 Small_zen_min_daily_limit_budget            = '14,000'
 Small_zen_max_daily_limit_budget            = '700,000,000'
+Small_zen_payment_type                      = 'CPC'
 
 ################# Small Native In-feed Banner ####################
 Shopping_ads_location                       = 'Search Result'
