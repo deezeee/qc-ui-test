@@ -243,10 +243,10 @@ class CampaignListPage(PageObject):
         if valid_data:
             with self._wait_for_page_refresh(timeout):
                 click_element(self.locator.create_campaign_form_btn)
+                error_messages = self.get_all_error_message_of_create_new_campaign()
             page_url = self.se2lib.get_location()
             patern = r'http.*\/(\d+)\/.*'
             match = re.search(patern, page_url)
-            error_messages = self.get_all_error_message_of_create_new_campaign()
             return match.group(1), error_messages
         else:
             click_element(self.locator.create_campaign_form_btn)
