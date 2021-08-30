@@ -40,12 +40,12 @@ class ToastMessageElement:
         self.se2lib.wait_for_condition("return (document.readyState == 'complete')", timeout=10)
 
     _locators = {
-        "toast_container":              ".toasts-container",
-        "success_toast":                ".toasts-container .toast-success",
-        "warning_toast":                ".toasts-container .toast-warning",
-        "error_toast":                  ".toasts-container .toast-error",
-        "toast_message":                ".toasts-container .toast .message div",
-        "remove_toast_btn":             ".toasts-container .toast button.remove-button"
+        "toast_container":              "css=.toasts-container",
+        "success_toast":                "css=.toasts-container .toast-success",
+        "warning_toast":                "css=.toasts-container .toast-warning",
+        "error_toast":                  "css=.toasts-container .toast-error",
+        "toast_message":                "css=.toasts-container .toast .message div",
+        "remove_toast_btn":             "css=.toasts-container .toast button.remove-button"
     }
 
     def close_toast_message(self):
